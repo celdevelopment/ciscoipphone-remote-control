@@ -1,0 +1,29 @@
+test_bmp_screenshot_is_converted_to_png (test_remote_viewer.PhoneTests.test_bmp_screenshot_is_converted_to_png) ... ok
+test_execution_errors_are_not_success (test_remote_viewer.PhoneTests.test_execution_errors_are_not_success) ... ok
+test_https_is_default (test_remote_viewer.PhoneTests.test_https_is_default) ... ok
+test_ipv6_target (test_remote_viewer.PhoneTests.test_ipv6_target) ... ok
+test_large_screenshot_is_rejected (test_remote_viewer.PhoneTests.test_large_screenshot_is_rejected) ... ok
+test_network_failure_is_actionable (test_remote_viewer.PhoneTests.test_network_failure_is_actionable) ... ok
+test_redirect_is_blocked (test_remote_viewer.PhoneTests.test_redirect_is_blocked) ... ok
+test_settings_key_is_form_encoded_xml (test_remote_viewer.PhoneTests.test_settings_key_is_form_encoded_xml) ... ok
+test_unknown_keys_never_reach_phone (test_remote_viewer.PhoneTests.test_unknown_keys_never_reach_phone) ... ok
+test_unsupported_image_codec_is_rejected (test_remote_viewer.PhoneTests.test_unsupported_image_codec_is_rejected) ... ok
+test_xml_and_html_screens_report_unsupported (test_remote_viewer.PhoneTests.test_xml_and_html_screens_report_unsupported) ... ok
+test_xml_authentication_error_even_with_http_success (test_remote_viewer.PhoneTests.test_xml_authentication_error_even_with_http_success) ... ok
+test_xml_entities_and_dtd_are_rejected (test_remote_viewer.PhoneTests.test_xml_entities_and_dtd_are_rejected) ... ok
+test_foreign_origin_and_host_blocked (test_remote_viewer.ViewerTests.test_foreign_origin_and_host_blocked) ... ok
+test_home_has_controls_but_no_credentials_or_automatic_key (test_remote_viewer.ViewerTests.test_home_has_controls_but_no_credentials_or_automatic_key) ... ok
+test_screen_requires_token (test_remote_viewer.ViewerTests.test_screen_requires_token) ... ok
+test_valid_key_and_invalid_payload (test_remote_viewer.ViewerTests.test_valid_key_and_invalid_payload) ... ok
+test_install_checks_manifest_and_creates_start_menu_launcher (test_windows_install.InstallerTests.test_install_checks_manifest_and_creates_start_menu_launcher) ... ok
+test_missing_file_rejected (test_windows_install.InstallerTests.test_missing_file_rejected) ... ok
+test_symbolic_link_directory_rejected (test_windows_install.InstallerTests.test_symbolic_link_directory_rejected) ... ok
+test_tampered_file_rejected (test_windows_install.InstallerTests.test_tampered_file_rejected) ... ok
+test_unexpected_file_rejected (test_windows_install.InstallerTests.test_unexpected_file_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.432s
+
+OK
+Installed to /var/folders/z7/hgl3ddln5vj1ffm325psl4d40000gn/T/tmpg48tfwub/local/Programs/CiscoPhoneViewer-1.0.0
+Open Cisco Phone Viewer from Start, or double-click Start Viewer.cmd there.

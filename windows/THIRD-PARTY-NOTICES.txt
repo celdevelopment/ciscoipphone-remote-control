@@ -1,0 +1,22 @@
+This distribution includes these third-party components unchanged except for
+Python's application-specific module search path (runtime/python314._pth):
+
+CPython 3.14.10, Windows x64 embeddable runtime
+Publisher: Python Software Foundation
+License and bundled notices: runtime/LICENSE.txt
+Source: https://www.python.org/downloads/release/python-31410/
+Upstream runtime SBOM: security-evidence/python-runtime.spdx.json
+
+Pillow 13.0.0, Windows x64 CPython 3.14 wheel
+License/notices: runtime/site-packages/pillow-13.0.0.dist-info/licenses/LICENSE
+Bundled native-library SBOM:
+runtime/site-packages/pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json
+Source: https://pypi.org/project/Pillow/13.0.0/
+
+DefusedXML 0.7.1, platform-independent wheel
+License: runtime/site-packages/defusedxml-0.7.1.dist-info/LICENSE
+Source: https://pypi.org/project/defusedxml/0.7.1/
+
+COMPONENTS.json records upstream archive hashes; SHA256SUMS.json records
+individual delivered file hashes. Original third-party license files, package
+metadata, and notices are retained in the distribution.
